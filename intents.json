@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "features",
+      "patterns": [
+        "Which features do you have?",
+        "What kinds of features are there?",
+        "What do you sell?",
+        "Do you also provide flight information?",
+        "Do you only have information about BLR?"
+      ],
+      "responses": [
+        "We have flight booking service, provides information about flight arrival and departure and different information about BLR airport."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you take debit cards?",
+        "Do you accept UPI?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept Credit cards,Debit cards,NetBanking, and UPI"
+      ]
+    },
+    {
+      "tag": "refunds",
+      "patterns": [
+        "How long will it take to get my refund?",
+        "When do I get my refund?"
+      ],
+      "responses": [
+        "Refund takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "paymentissue",
+      "patterns": [
+        "My payment got stuck and money has been credited from my account. I don't know whether my flight is booked or not. Can you please confirm it?",
+        "I am having Payment issue. What should I do?"
+      ],
+      "responses": [
+        "Don't worry provide us your booking details.\nWe will contact you shortly.\nThank You!"
+      ]
+    }
+  ]
+}
